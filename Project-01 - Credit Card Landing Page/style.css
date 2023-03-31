@@ -5,6 +5,9 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 } 
 
+html{
+    overflow-x: hidden;
+}
 body{
     background-color: rgba(21,21,21,255);
 }
@@ -132,7 +135,151 @@ header ul li,a{
 
 
 
+.second-main{
+    position: relative;
+    max-width: 100%;
+}
+.main-two-img{
+  
+}
 
+.main-two-img img{
+    width: 800px;
+}
+
+.main-two-img img:nth-child(1){
+    position: absolute;
+    left: 500px;
+    top: -550px;
+}
+.main-two-img img:nth-child(2){
+    position: absolute;
+    left: 730px;
+    top: -500px; 
+    overflow-x: none;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .main-two-img {
+      display: none;
+    }
+  } */
+
+/* Logo Section */
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 200px;
+    background-color: rgb(73, 59, 59);
+    padding: 50px 0;
+}
+
+.card-benifit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.card-benifit h2{
+    color: whitesmoke;
+    font-size: 10vmin;
+    font-weight: 700;
+    width: 50%;
+}
+.card-benifit span{
+    color: #FF00FF;
+}
+.card-benifit p{
+    color: rgb(149, 129, 129);
+    font-size: 4vmin;
+    width: 40%;
+}
+
+
+/* Three card */
+
+.three-card{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.card{
+    border: 1px solid white;
+    width: 350px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#card-one{
+    background-color: #272727;
+}
+#card-one h4{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+#card-two{
+    background-color: #514f4e;
+    position: relative;
+    bottom: 50px;
+}
+#card-two h4{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+   
+}
+
+#card-three{
+    background-color: #272727;
+}
+#card-three h4{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    background-color: #272727;
+}
+
+/* V Card section */
+
+.card-choices{
+    margin-top: 200px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.card-choices h3{
+    font-size: 12vmin;
+    font-weight: 500;
+}
+.card-choices span{
+    color: #FF00FF;
+}
+.card-choices p{
+    font-size: 3vmin;
+    width: 45%;
+    margin: 50px auto 0;
+}
+.card-choices img{
+    max-width: 100%;
+}
 
 
 
