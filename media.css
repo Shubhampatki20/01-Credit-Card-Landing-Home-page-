@@ -1,0 +1,167 @@
+@media screen and (max-width:992px) {
+    header ul {
+        flex-wrap: nowrap;
+    }
+
+    header {
+        margin: 50px 20px;
+        font-size: 2.5vmin;
+    }
+
+    .first-main h2 {
+        font-size: 5vmin;
+    }
+
+    .first-main p {
+        font-size: 3vmin;
+    }
+
+    .first-main {
+        margin: 30px 10px;
+    }
+
+    .second-main {
+        display: none;
+    }
+
+    .main-bottom {
+        gap: 10px;
+    }
+
+    .logo-section {
+        margin-top: 80px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    header {
+        margin: 50px 10px;
+        font-size: 2vmin;
+    }
+
+    header ul {
+        flex-wrap: nowrap;
+    }
+
+    .first-main h2 {
+        font-size: 8vmin;
+    }
+
+    .first-main p {
+        font-size: 2vmin;
+    }
+
+    .first-main {
+        margin: 30px 5px;
+    }
+
+    .second-main {
+        display: none;
+    }
+
+    .main-bottom {
+        gap: 10px;
+    }
+
+    .logo-section {
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    header {
+        margin: 50px 5px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    .header-end {
+        font-size: 5vmin;
+    }
+
+    #lang-option {
+        display: none;
+    }
+
+    .first-main h2 {
+        font-size: 8vmin;
+    }
+
+    .first-main p {
+        font-size: 1.5vmin;
+    }
+
+    .first-main {
+        margin: 50px 5px;
+    }
+
+    .second-main {
+        display: none;
+    }
+
+    .main-bottom {
+        gap: 5px;
+    }
+
+    .logo-section {
+        margin-top: 20px auto;
+        padding: 10px 0;
+    }
+
+    .logo-section img {
+        width: 100px;
+    }
+
+    .logo-section img:nth-child(2) {
+        display: none;
+    }
+
+    .logo-section img:nth-child(3) {
+        display: none;
+    }
+
+    .logo-section img:nth-child(4) {
+        display: none;
+    }
+
+    .logo-section img:nth-child(5) {
+        display: none;
+    }
+
+    .logo-section img:nth-child(6) {
+        display: none;
+    }
+
+    .card-benifit {
+        margin-top: 30px;
+        gap: 0px;
+    }
+
+    .card-benifit h2 {
+        font-size: 7vmin;
+    }
+    .cust-feat h3{
+        font-size: 2rem;
+        line-height: 50px;
+        font-weight: 100;
+    }
+    .card-section h4,h3{
+        font-size: 0.75rem;
+        font-weight: 100;
+        margin-top: 10px;
+    }
+    .card-section {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .three-card {
+        /* flex-direction: column; */
+        
+    }
+}
