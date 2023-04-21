@@ -143,8 +143,6 @@
     .card-benifit {
         margin-top: 30px;
         gap: 0px;
-        flex-direction: column;
-        max-width:100%;
     }
 
     .card-benifit h2 {
