@@ -82,6 +82,10 @@
     .header-end {
         font-size: 5vmin;
     }
+    header>img {
+        width: 10vh;
+        margin-left: 10px;
+    }
 
     #lang-option {
         display: none;
