@@ -143,6 +143,7 @@
     .card-benifit {
         margin-top: 30px;
         gap: 0px;
+        flex-direction: column;
     }
 
     .card-benifit h2 {
@@ -160,6 +161,9 @@
     }
     .card-section {
         width: 250px;
+    }
+    .first-main{
+        align-items: center;
     }
 }
 
